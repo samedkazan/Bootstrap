@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background-color: #E9ECEF;
+}
+
+
+
+
+.tepe{
+    top: 0;
+    position: fixed;
+    display: block;
+    background-color: #525252;
+    line-height: 40px;
+    float: left;
+    width: 100%;
+    height: 5%;
+    border-bottom: 1.5px solid #a518d5;
+}
+
+.tepe2{
+    position: absolute;
+}
+
+
+
+.tepeyazi{
+    /* text-decoration: none; */
+    padding-left: 27px;
+   
+}
+
+.tepeyazi1{
+    padding-right: 30px;
+    /* font-size: x-large; */
+    font-size: 1.6em;
+    color: rgb(178, 48, 211);
+}
+
+.tepeyazi2{
+    padding-right: 10px;
+    color: white;
+}
+
+.tepeyazi1:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.tepeyazi2:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.merhaba{
+    text-align: center;
+}
+
+.liste{
+    text-align: center;
+    list-style-position: inside;
+    font: italic 1.2em "Fira Sans", serif;
+
+}
+
+.mavibuton {
+   margin-left: 50px;
+}
+
+.footer {
+    bottom: 0;
+    display: block;
+    position: fixed;
+    width: 100%;
+    color: #222;
+    font-family: arial,sans-serif;
+    background: #cec3c3;
+    border-top: 1px solid #a5a0a0;
+
+}
+
+.footeryazi{
+    text-align: center;
+    font: italic 1.2em "Fira Sans", serif;
+    margin-top: 2px;
+}
+
+
+
+.fiyat{
+color: white;
+background-color: rgb(116, 115, 115);
+height: 20px;
+width: 45px;
+font-size: small;
+font-family: system-ui;
+border-radius: 5px;
+text-align: center;
+}
+
+.fender{
+    font-size: 1.5em;
+}
+
+.fender:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.urunbaslik{
+text-align: center;
+margin: 20px;
+padding-top: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+   margin-left: -15px;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 10px
+  }
+
+  .fendermaster:hover .overlay {
+    opacity: 1;
+    padding-left: 10px;
+  }
+
+  .vivaldi904:hover .overlay {
+    opacity: 1;
+    padding-left: 10px;
+  }
+
+.tiklama:active {
+    color: red;
+  } 
+
+
+  .golge:hover {
+    border: 1px solid;
+    box-shadow: 1px 1px 8px 1px #807b7b;
+  }
+
+.golge:focus-within {
+    box-shadow: 1px 1px 8px 1px #797373;
+    outline: none;
+  }
+
